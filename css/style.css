@@ -105,6 +105,19 @@ img{
     height: 300px;
     background-color: lightpink;
 }
+
+.business-column{
+    width: calc(100% / 3);
+    /* debug */
+    height: 150px;
+    border: 1px solid red;
+    
+
+}
+.business-row{
+    flex-wrap: wrap;
+}
+
 /* MOREINFO */
 .moreinfo{
     /* debug */
@@ -117,12 +130,31 @@ img{
     height: 300px;
     background-color: lightseagreen;
 }
+.testimonial-column{
+    width: calc(100% / 3);
+    /* debug */
+    height: 300px;
+    border: 1px solid red;
+   
+}
+
+
+
 /* JOINUS */
 .joinus{
     /* debug */
     height: 300px;
     background-color: lightslategray;
 }
+.joinus-column{
+    width: 50%;
+    /* debug */
+    height: 300px;
+    border: 1px solid red;
+    
+}
+
+
 /* FAQ */
 .faq{
     /* debug */
@@ -137,4 +169,11 @@ footer{
 .footer{
    /* debug */
    height: 300px;
+}
+.footer-column{
+    width: calc(100% / 5);
+    /* debug */
+    height: 300px;
+    border: 1px solid red;
+    
 }
