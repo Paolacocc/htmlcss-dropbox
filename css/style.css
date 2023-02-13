@@ -29,6 +29,10 @@ img{
     /* debug */
     background-color: lightgray;
 }
+.flex{
+    display: flex;
+}
+
 /* JUMBOTRON */
 
 .jumbotron{
@@ -42,6 +46,22 @@ img{
     height: 200px;
     background-color: aquamarine;
 }
+.jumbo-img{
+    width: 50%;
+    /* debug */
+    background-color: lightsalmon;
+    height: 150px;
+    border: aliceblue 1px solid;
+}
+.jumbo-text{
+    width: 50%;
+     /* debug */
+     background-color: lightsalmon;
+     height: 150px;
+    border: aliceblue 1px solid;
+
+}
+
 /* PLANS */
 .plans{
     /* debug */
