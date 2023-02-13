@@ -43,22 +43,22 @@ img{
 }
 .main-block{
     /* debug */
-    height: 200px;
+    height: 300px;
     background-color: aquamarine;
 }
 .jumbo-img{
     width: 50%;
     /* debug */
-    background-color: lightsalmon;
-    height: 150px;
-    border: aliceblue 1px solid;
+  
+    height: 250px;
+    border: red 1px solid;
 }
 .jumbo-text{
     width: 50%;
      /* debug */
-     background-color: lightsalmon;
-     height: 150px;
-    border: aliceblue 1px solid;
+     
+     height: 250px;
+    border: red 1px solid;
 
 }
 
@@ -68,12 +68,37 @@ img{
     height: 400px;
     background-color: lightcoral;
 }
+.plans-column{
+    /* debug */
+    height: 300px;
+    width: calc(100% / 3);
+    border: 1px solid red;
+   
+}
+.plans-enterprice{
+    /* debug */
+    height: 100px;
+    width: 100%;
+    border: 1px solid red;
+    
+}
+
 /* CONTACTUS */
 .contactus{
     /* debug */
     height: 300px;
-    background-color: lightgreen;
+    background-color: rgb(174, 144, 238);
 }
+.contact-column{
+    width: 50%;
+    /* debug */
+    border: 1px solid red;
+    height: 300px;
+
+
+}
+
+
 /* BUSINESS */
 .business{
     /* debug */
