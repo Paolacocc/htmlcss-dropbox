@@ -5,12 +5,10 @@
 }
 
 img{
-    width: 100%;
-    max-width: 1100px;
+    max-width: 100%;
 }
 p{
-    font-size: .5rem;
-    padding-bottom: 30px;
+    padding: 30px 0 30px;
 }
 
  /* COMMON */
@@ -40,6 +38,7 @@ h1{
     background-color: #0061FF;
     padding: 5px;
     color: white;
+    text-decoration: none;
 }
 /* HEADER */
 
@@ -52,7 +51,7 @@ h1{
 }
 
 .logo{
-    width: fit-content;
+   vertical-align: middle;
     
 }
 .header-links{
@@ -78,31 +77,25 @@ li a {
 .jumbotron{
     width: 100%;
     
-    /* debug */
-   height: 300px;
+
     background-color: #B4D0E7;
 }
 .main-block{
     padding-top: 20px;
-    /* debug */
-    height: 300px;
+    
     
 }
 .jumbo-img{
     width: 60%;
-    /* debug */
-  
-    height: 250px;
-    border: red 1px solid;
+    padding-top: 30px;
+    
 }
 .jumbo-text{
     width: 40%;
-    padding-top: 30px;
-     /* debug */
-     
-     height: 250px;
-    border: red 1px solid;
-
+}
+.jumbo-arrow{
+    font-size: 2rem;
+    padding-bottom: 20px;
 }
 
 /* PLANS */
