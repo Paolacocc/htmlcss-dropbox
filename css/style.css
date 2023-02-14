@@ -208,20 +208,17 @@ li a {
     padding-left: 10px;
 }
 /* CONTACTUS */
-.contactus{
-    /* debug */
-    height: 300px;
-    background-color: rgb(174, 144, 238);
+
+.contact-column1{
+    width: 60%;
 }
-.contact-column{
-    width: 50%;
-    /* debug */
-    border: 1px solid red;
-    height: 300px;
-
-
+.contact-column2{
+    width: 40%;
 }
-
+.contactus-btn{
+    background-color: none;
+}
+.contact-row
 
 /* BUSINESS */
 .business{
