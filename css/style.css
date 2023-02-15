@@ -423,13 +423,33 @@ footer{
      background-color: black;
 }
 .footer{
-   /* debug */
-   height: 300px;
+  
 }
 .footer-column{
     width: calc(100% / 5);
-    /* debug */
-    height: 300px;
-    border: 1px solid red;
     
+    
+}
+.footer-card{
+    padding: 10px;
+    color: white;
+    
+}
+.footer-card li{
+    font-size: .8rem;
+    
+    padding-top: 10px;
+    font-weight: 100;
+}
+.footer-card h3{
+    padding-bottom: 20px;
+}
+.hr-footer{
+    width: 30%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.footer-bottom {
+    padding-bottom: 50px;
+    color: white;
 }
