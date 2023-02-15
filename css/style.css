@@ -38,12 +38,14 @@ h2{
     padding-bottom: 20px;
 }
 .button{
+    display: inline-block;
     background-color: #0061FF;
     padding: 5px 10px;
     color: white;
     text-decoration: none;
     font-weight: 100;
     font-size: .8rem;
+    line-height: normal;
 }
 .check{
     color: #0061FF;
@@ -82,15 +84,19 @@ h2{
 /* HEADER */
 
 .header{
+    position: fixed;
+    left: 0;
+    top: 0;
     width: 100%;
     height: 60px;
     line-height: 60px;
     padding: 0 1rem;
     background-color: white;
+    z-index: 999;
 }
 
 .logo{
-   vertical-align: middle;
+   vertical-align: text-bottom;
     
 }
 .header-links{
@@ -114,17 +120,23 @@ li a {
 /* JUMBOTRON */
 
 .jumbotron{
+    padding-top: 5rem;
     width: 100%;
     background-color: #B4D0E7;
-    height: 550px;
+   
     margin-bottom: 150px;
 }
 .main-block{
-    padding-top: 20px;
-    
+    /* padding-top: 20px; */
+    position: relative;
+    top: 80px;
     
 }
+.jumbo-block{
+  
+}
 .jumbo-img{
+    
     width: 70%;
     padding-top: 30px;
     
@@ -155,7 +167,7 @@ li a {
 }
 .card{
     display: table-cell;
-    border: .5px solid gray;
+    border: .5px solid lightgray;
 }
 .plans-enterprice{
     width: 100%;
@@ -174,8 +186,9 @@ li a {
     padding-right: 30px;
 }
 .plan-type{
-    border: .5px solid gray;
+    border-bottom: .5px solid lightgray;
     text-align: center;
+    padding: 5px;
     
 }
 .main-card{
@@ -186,7 +199,7 @@ li a {
 }
 
 .enterprise{
-    border: .5px solid gray;
+    border: .5px solid lightgray;
     border-top: none;
     justify-content: space-between;
 }
@@ -221,29 +234,32 @@ li a {
 .contact-row
 
 /* BUSINESS */
-.business{
-    /* debug */
-    height: 300px;
-    background-color: lightpink;
-}
 
-.business-column{
-    width: calc(100% / 3);
+.business {
     /* debug */
-    height: 150px;
-    border: 1px solid red;
-    
-
+    /* height: 300px;
+    background-color: lightpink; */
 }
 .business-row{
     flex-wrap: wrap;
 }
+.business-column{
+    width: calc(100% / 3);
+    /* debug */
+    /* height: 150px;
+    border: 1px solid red; */
+}
+.business-card{
+    padding: 20px;
+}
 
 /* MOREINFO */
 .moreinfo{
+    padding-top: 80px;
+    padding-bottom: 60px;
     /* debug */
-    height: 300px;
-    background-color: lightgreen;
+    /* height: 300px;
+    background-color: lightgreen; */
 }
 /* TESTIMONIAL */
 .testimonial{
